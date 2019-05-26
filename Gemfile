@@ -21,6 +21,12 @@ gem 'puma', '~> 3.11'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'bcrypt', '~> 3.1.7'
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'faker', '~> 1.7.2'
+gem 'rack-cors','~>0.4.1'
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'knock', '~> 2.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
