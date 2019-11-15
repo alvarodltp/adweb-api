@@ -24,7 +24,7 @@ gem 'puma', '~> 3.11'
 gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'faker', '~> 1.7.2'
-gem 'rack-cors','~>0.4.1'
+gem 'rack-cors','~>1.0.5'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'knock', '~> 2.0'
 
